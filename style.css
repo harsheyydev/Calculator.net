@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    background: #12191c ;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .con2{
+    width: 30%;
+    height: 90vh;
+    background: #0e87be;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    
+  }
+
+  .tab1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 60vh;
+    background: #0c0d0d;
+    padding: 30px;
+    color: aliceblue;
+
+  }
+  .clr button{
+    font-size: 14px;
+    padding: 10px;
+    transform: translate(150%, -5%);
+
+  }
+
+ h1{
+    text-align: center;
+    font-weight: bold;
+    margin-left: px;
+  } 
+
+  .Cal{
+    background: #0e87be;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+      }
+
+.button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+}
+
+
+ button{
+  /* padding: ; */
+  height: 70px;
+  width: 90px;
+  border: 2px;
+  border-radius: 40px;
+  margin- 20px ;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: black;
+  font-family: serif;
+  font-size: 30px;
+  color: aqua;
+  cursor:pointer ;
+
+ }
+
+.diss1 input{
+    width: 430px;
+    height: 50px;
+    outline: none;
+    padding: 20px;
+    text-align: right;
+    font-size: 30px;
+    color: aqua;
+    font-family: 'Lucida Sans';
+    cursor: pointer ;
+    background-color: black;
+    border-bottom: none;
+}
+
+.diss2 input {
+  width: 430px;
+  height: 50px;
+  outline: none;
+  padding: 20px;
+  text-align: right;
+  font-size: 30px;
+  color: aqua;
+  font-family: 'Lucida Sans';
+  cursor: pointer ;
+  background-color: black;
+  border-top: none;
+  
+    
+}
+
+.operator{
+  color: rgb(209, 214, 40);
+}
